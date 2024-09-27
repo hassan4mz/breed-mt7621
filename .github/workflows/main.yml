@@ -28,7 +28,7 @@ jobs:
         run: |
           sudo apt update
           sudo apt install unzip libtool-bin ccache curl binwalk  
-          git clone 
+          
            wget https://breed.hackpascal.net/'${{ inputs.breed-name }}'
            ./breed_magic --src '${{ inputs.breed-name }}' --dst breed_mod.bin -r '${{ inputs.GPIO_KEY }}'
 
