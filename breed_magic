@@ -231,7 +231,7 @@ def assign_reset_btn(button, breed_bin):
   rst_magic_seq = "00 04 24 01 00 05 24"
   #wan LED value seq just before lan2 LED value
   wan_magic_seq = "0d 00 04 24 01 00 05 24"
-  lan2 LED seq just after value byte
+  #lan2 LED seq just after value byte
   lan2_magic_seq = "00 04 24 01 00 05 24"
   red_off = find_magic_off(breed_bin, red_magic_seq)
   start = red_off - 32 #start offset -32 bytes
