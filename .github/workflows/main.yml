@@ -12,7 +12,7 @@ on:
         description: 'Breed bootloader name'
         required: true
         type: string
-        default: 'breed-mt7621-hiwifi-hc5962.bin'
+        default: 'breed-mt7621-xiaomi-r3g.bin'
 
 
 jobs:
