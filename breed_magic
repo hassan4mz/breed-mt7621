@@ -243,7 +243,7 @@ def assign_reset_btn(button, breed_bin):
 #  lan2_off = find_magic_off(breed_bin, lan2_magic_seq, start, start + 32)
 #  lan2_val_off = lan2_off - 1
   breed_bin = change_byte(breed_bin, rst_val_off, button, "reset button")
-  breed_bin = change_byte(breed_bin, lan2_val_off, 12, "LED")
+#  breed_bin = change_byte(breed_bin, lan2_val_off, 12, "LED")
   return bytes(breed_bin)
 
 def change_byte(data, off, val, msg):
